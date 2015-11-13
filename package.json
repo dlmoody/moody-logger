@@ -1,0 +1,28 @@
+{
+  "name": "moody-logger",
+  "version": "1.0.0",
+  "description": "its just a logger for my own amusement",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlmoody/moody-logger.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "David Moody <moody.david@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlmoody/moody-logger/issues"
+  },
+  "homepage": "https://github.com/dlmoody/moody-logger#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "memorystream": "^0.3.1",
+    "mocha": "^2.3.3",
+    "test-console": "^1.0.0"
+  }
+}
